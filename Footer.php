@@ -10,7 +10,7 @@
 
 </center>
 
-<a href="http://www.eddylu.com/Home.php" target="_blank">
+<a href="http://www.eddylu.com/" target="_blank">
 <div style="position: fixed; bottom: 80px; left: 0; width: 60px; height: 60px; background-color: #191919;
         border-top-left-radius: 0px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 0px;">
     <img id="logo" src="favicon.png" style="bottom: 30px; width: 60px; height: 60px; opacity: .5;

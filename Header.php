@@ -44,7 +44,7 @@ ul li:hover {
 
 <center>
 
-<div id="navMenu" style="float: left; width: 160px; min-height: 100%; background-color: #191919; text-align: left; padding: 0;">
+<div id="navMenu" style="position: fixed; float: left; width: 160px; min-height: 100%; background-color: #191919; text-align: left; padding: 0;">
 
 <style>
     p#notesTitle {
@@ -68,9 +68,9 @@ ul li:hover {
 
 <style>
     a {
-        color: #FFCC00;
+        color: #FFFFFF;
     }    
 </style>
 
-<div id="container" style="float: left; width: 900px; height: 810px; background-color: #333333; padding-left: 30px; text-align: left; margin: 0 auto; margin-top: 50px; margin-left: 15px;
+<div id="container" style="float: left; width: 900px; height: 810px; background-color: #333333; padding-left: 30px; text-align: left; margin: 0 auto; margin-top: 50px; margin-left: 180px;
      font-family: Calibri; color: #FFFFFF; font-size: large;">
