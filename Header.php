@@ -38,7 +38,7 @@ ul li:hover {
 
 <html>
 
-<?php include 'statRecorder.php';?>
+<?php //include 'statRecorder.php';?>
 
 <body bgcolor = #333333 style="font-family: Calibri; margin:0; height:100%;">
 
