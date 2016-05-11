@@ -38,7 +38,7 @@ ul li:hover {
 
 <html>
 
-<?php //include 'statRecorder.php';?>
+<?php include 'statRecorder.php';?>
 
 <body bgcolor = #333333 style="font-family: Calibri; margin:0; height:100%;">
 
@@ -61,6 +61,7 @@ ul li:hover {
     <li><a href="Home.php">Home</a></li>
     <li><a href="DataStructures.php">Data Structures</a></li>
     <li><a href="Algorithms.php">Algorithms</a></li>
+    <li><a href="Practice.php">Practice Problems</a></li>
     <li><a href="About.php">About</a></li>
 </ul>
 
