@@ -20,7 +20,7 @@
     TreeNode parent = </span><span class="s0">null;</span><span class="s1"> 
     ArrayList&lt;TreeNode&gt; children = </span><span class="s0">new </span><span class="s1">ArrayList&lt;TreeNode&gt;()</span><span class="s0">;</span><span class="s1"> 
  
-    ArrayList&lt;TreeNode&gt; depthQueue = </span><span class="s0">new </span><span class="s1">ArrayList&lt;TreeNode&gt;()</span><span class="s0">;</span><span class="s1"> 
+    ArrayList&lt;TreeNode&gt; breadthQueue = </span><span class="s0">new </span><span class="s1">ArrayList&lt;TreeNode&gt;()</span><span class="s0">;</span><span class="s1"> 
  
     </span><span class="s0">public </span><span class="s1">TreeNode(</span><span class="s0">int </span><span class="s1">d) { 
         data = d</span><span class="s0">;</span><span class="s1"> 
@@ -60,43 +60,43 @@
         </span><span class="s0">return </span><span class="s1">-</span><span class="s3">1</span><span class="s0">;</span><span class="s1"> 
     } 
  
-    </span><span class="s0">void </span><span class="s1">breadthSearch() { 
-        System.out.println(</span><span class="s2">&quot;Breadth-first search:&quot;</span><span class="s1">)</span><span class="s0">;</span><span class="s1"> 
+    </span><span class="s0">void </span><span class="s1">depthSearch() { 
+        System.out.println(</span><span class="s2">&quot;Depth-first search:&quot;</span><span class="s1">)</span><span class="s0">;</span><span class="s1"> 
         TreeNode n = </span><span class="s0">this;</span><span class="s1"> 
-        breadthSearchNode(n)</span><span class="s0">;</span><span class="s1"> 
+        depthSearchNode(n)</span><span class="s0">;</span><span class="s1"> 
         System.out.println()</span><span class="s0">;</span><span class="s1"> 
         System.out.println()</span><span class="s0">;</span><span class="s1"> 
     } 
  
-    </span><span class="s0">void </span><span class="s1">breadthSearchNode(TreeNode n) { 
+    </span><span class="s0">void </span><span class="s1">depthSearchNode(TreeNode n) { 
         System.out.print(n.data + </span><span class="s2">&quot; &quot;</span><span class="s1">)</span><span class="s0">;</span><span class="s1"> 
         </span><span class="s0">if </span><span class="s1">(n.children.size() &gt; </span><span class="s3">0</span><span class="s1">) { 
             </span><span class="s0">int </span><span class="s1">size = n.children.size()</span><span class="s0">;</span><span class="s1"> 
             </span><span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">i = </span><span class="s3">0</span><span class="s0">; </span><span class="s1">i &lt; size</span><span class="s0">; </span><span class="s1">i++) { 
-                breadthSearchNode(n.children.get(i))</span><span class="s0">;</span><span class="s1"> 
+                depthSearchNode(n.children.get(i))</span><span class="s0">;</span><span class="s1"> 
             } 
         } 
     } 
  
-    </span><span class="s0">void </span><span class="s1">depthSearch() { 
-        System.out.println(</span><span class="s2">&quot;Depth-first search:&quot;</span><span class="s1">)</span><span class="s0">;</span><span class="s1"> 
+    </span><span class="s0">void </span><span class="s1">breadthSearch() { 
+        System.out.println(</span><span class="s2">&quot;Breadth-first search:&quot;</span><span class="s1">)</span><span class="s0">;</span><span class="s1"> 
         TreeNode n = </span><span class="s0">this;</span><span class="s1"> 
-        depthQueue.add(n)</span><span class="s0">;</span><span class="s1"> 
-        </span><span class="s0">while </span><span class="s1">(depthQueue.size() &gt; </span><span class="s3">0</span><span class="s1">) { 
-            depthSearchOneLevel()</span><span class="s0">;</span><span class="s1"> 
+        breadthQueue.add(n)</span><span class="s0">;</span><span class="s1"> 
+        </span><span class="s0">while </span><span class="s1">(breadthQueue.size() &gt; </span><span class="s3">0</span><span class="s1">) { 
+            breadthSearchOneLevel()</span><span class="s0">;</span><span class="s1"> 
         } 
         System.out.println()</span><span class="s0">;</span><span class="s1"> 
         System.out.println()</span><span class="s0">;</span><span class="s1"> 
     } 
  
-    </span><span class="s0">void </span><span class="s1">depthSearchOneLevel() { 
-        TreeNode n = depthQueue.get(</span><span class="s3">0</span><span class="s1">)</span><span class="s0">;</span><span class="s1"> 
+    </span><span class="s0">void </span><span class="s1">breadthSearchOneLevel() { 
+        TreeNode n = breadthQueue.get(</span><span class="s3">0</span><span class="s1">)</span><span class="s0">;</span><span class="s1"> 
         System.out.print(n.data + </span><span class="s2">&quot; &quot;</span><span class="s1">)</span><span class="s0">;</span><span class="s1"> 
-        depthQueue.remove(</span><span class="s3">0</span><span class="s1">)</span><span class="s0">;</span><span class="s1"> 
+        breadthQueue.remove(</span><span class="s3">0</span><span class="s1">)</span><span class="s0">;</span><span class="s1"> 
         </span><span class="s0">if </span><span class="s1">(n.children.size() &gt; </span><span class="s3">0</span><span class="s1">) { 
             </span><span class="s0">int </span><span class="s1">size = n.children.size()</span><span class="s0">;</span><span class="s1"> 
             </span><span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">i = </span><span class="s3">0</span><span class="s0">; </span><span class="s1">i &lt; size</span><span class="s0">; </span><span class="s1">i++) { 
-                depthQueue.add(n.children.get(i))</span><span class="s0">;</span><span class="s1"> 
+                breadthQueue.add(n.children.get(i))</span><span class="s0">;</span><span class="s1"> 
             } 
         } 
     } 
