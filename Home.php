@@ -2,7 +2,7 @@
 
 <h1>Home</h1>
 
-I made this website while studying different programming data structures and algorithms so that my friends and I would be able to quickly refer back to these source codes whenever we need it. 
+I made this website while studying different programming data structures and algorithms so that my friends and I can quickly refer to these source codes whenever needed.
 
 <br><br><br>
 
@@ -11,10 +11,12 @@ I made this website while studying different programming data structures and alg
     
 <tr>
 <td>
-    <a href="DataStructures.php"><img src="datastructures.png" width="525" height="248"></a>
+    <a href="DataStructures.php"><img src="datastructures.png" onmouseover="this.src='datastructures_darkened.png'"
+         onmouseout="this.src='datastructures.png'" width="525" height="248"></a>
 </td>
 <td>
-    <a href="Algorithms.php"><img src="algorithms.png" width="525" height="248"></a>
+    <a href="Algorithms.php"><img src="algorithms.png" onmouseover="this.src='algorithms_darkened.png'"
+         onmouseout="this.src='algorithms.png'" width="525" height="248"></a>
 </td>
 </tr>
 <tr>
