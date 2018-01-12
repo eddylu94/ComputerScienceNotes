@@ -14,24 +14,28 @@ ul {
     color: #FFFFFF;
     font-family: Calibri;
     font-size: 120%;    
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
     
-ul li {
-    margin-bottom: 25px;
-}
-    
-ul li a {
+ul li a {          
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
     color: #FFFFFF;
-    text-decoration: none;      
 }
     
 ul li:hover {
     background-color: #808080;
     color: #FFFFFF;
 }   
+
+h1 {
+    margin-top: 0px;
+}
      
 </style>
 
@@ -44,7 +48,7 @@ ul li:hover {
 
 <center>
 
-<div id="navMenu" style="position: fixed; float: left; width: 160px; min-height: 100%; background-color: #191919; text-align: left; padding: 0;">
+<div id="navMenu" style="position: fixed; float: left; width: 200px; min-height: 100%; background-color: #191919; text-align: left; padding: 0;">
 
 <style>
     p#notesTitle {
@@ -55,13 +59,11 @@ ul li:hover {
     }    
 </style>
 
-<p id="notesTitle"><a href="Home.php" style="text-decoration: none;">Notes</a></p>
-
 <ul>
     <li><a href="Home.php">Home</a></li>
     <li><a href="DataStructures.php">Data Structures</a></li>
     <li><a href="Algorithms.php">Algorithms</a></li>
-    <li><a href="OOP.php">Object-Oriented Programming</a></li>
+    <li><a href="OOP.php">OOP</a></li>
     <li><a href="Practice.php">Practice Problems</a></li>
     <li><a href="About.php">About</a></li>
 </ul>
@@ -74,5 +76,5 @@ ul li:hover {
     }    
 </style>
 
-<div id="container" style="float: left; width: 900px; height: 810px; background-color: #333333; padding-left: 30px; text-align: left; margin: 0 auto; margin-top: 50px; margin-left: 180px;
+<div id="container" style="float: left; width: 900px; height: 810px; background-color: #333333; padding-left: 30px; text-align: left; margin: 0 auto; margin-top: 50px; margin-left: 220px;
      font-family: Calibri; color: #FFFFFF; font-size: large;">
