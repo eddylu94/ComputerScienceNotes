@@ -9,7 +9,7 @@ html, body {
     height:  100%;
 }
     
-ul {
+#navMenu ul {
     list-style-type: none;
     color: #FFFFFF;
     font-family: Calibri;
@@ -19,16 +19,16 @@ ul {
     margin-top: 50px;
 }
     
-ul li a {          
+#navMenu ul li a {          
     width: 100%;
     height: 100%;
     display: inline-block;
-    padding: 10px;
+    padding: 10px 10px 10px 50px;
     text-decoration: none;
     color: #FFFFFF;
 }
     
-ul li:hover {
+#navMenu ul li:hover {
     background-color: #808080;
     color: #FFFFFF;
 }   
@@ -46,9 +46,11 @@ h1 {
 
 <body bgcolor = #333333 style="font-family: Calibri; margin:0; height:100%;">
 
+<?php include 'global_header.php';?>
+
 <center>
 
-<div id="navMenu" style="position: fixed; float: left; width: 200px; min-height: 100%; background-color: #191919; text-align: left; padding: 0;">
+<div id="navMenu" style="position: fixed; float: left; width: 230px; min-height: 100%; background-color: #191919; text-align: left; padding: 0;">
 
 <style>
     p#notesTitle {
@@ -60,12 +62,11 @@ h1 {
 </style>
 
 <ul>
-    <li><a href="Home.php">Home</a></li>
+    <li><a href="Home.php">Notes</a></li>
     <li><a href="DataStructures.php">Data Structures</a></li>
     <li><a href="Algorithms.php">Algorithms</a></li>
     <li><a href="OOP.php">OOP</a></li>
     <li><a href="Practice.php">Practice Problems</a></li>
-    <li><a href="About.php">About</a></li>
 </ul>
 
 </div>
@@ -76,5 +77,5 @@ h1 {
     }    
 </style>
 
-<div id="container" style="float: left; width: 900px; height: 810px; background-color: #333333; padding-left: 30px; text-align: left; margin: 0 auto; margin-top: 50px; margin-left: 220px;
+<div id="container" style="float: left; width: 900px; height: 810px; background-color: #333333; padding: 0px 50px 0px 0px; text-align: left; margin: 0 auto; margin-top: 50px; margin-left: 290px;
      font-family: Calibri; color: #FFFFFF; font-size: large;">

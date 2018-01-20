@@ -12,9 +12,9 @@
     }
 </style>
 
-<h1>Home</h1>
+<h1>Notes</h1>
 
-I made this website while studying different programming data structures and algorithms so that my friends and I can quickly refer to these source codes whenever needed.
+I made this section while studying different programming data structures and algorithms so that my friends and I can quickly refer to these source codes whenever needed.
 
 <br><br><br>
 
