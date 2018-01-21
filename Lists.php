@@ -2,9 +2,9 @@
 
 <h1>Lists</h1>
 
-This is an implementation of a singly-linked list.
-
-A doubly-linked list would follow the same format except that it would incorporate a <i>previous</i> node in addition to the <i>next</i> node.
+<span>
+This is an implementation of a singly-linked list. A doubly-linked list would follow the same format except that it would incorporate a <i>previous</i> node in addition to the <i>next</i> node.
+</span>
 
 <h2>Java</h2>
 

@@ -3,7 +3,7 @@
 <div id="header">
     <div id="header_bar">
         <div id="header_wrapper">
-            <a href="index.php">
+            <a href="../index.php">
                 <div id="title">
                     <div id="title_left">Eddy&nbsp;</div><div id="title_right">Lu</div>
                 </div>
@@ -19,5 +19,5 @@
             </div>
         </div>
     </div>
-    <div id="header_placeholder"></div>
 </div>
+<div id="header_placeholder"></div>
