@@ -91,6 +91,40 @@
     color: #FFFFFF;
 }
 
+#header ul ul {
+    position: absolute;
+    display: none;
+    background-color: #262626;
+}
+
+#header li:hover ul {
+    display: block;
+}
+
+#header ul ul li {
+    display: block;
+}
+
+#header ul ul li a {
+    width: 100%;
+}
+
+#socialIcons {
+    float: right;
+    height: 50px;
+}
+
+#socialIcon {
+    float: left;
+    width: 35px;
+    margin: 7.5px 0px 7.5px 10px;
+    opacity: 0.8;
+}
+
+#socialIcon:hover {
+    opacity: 1.0;
+}
+
 #subheader {        
     height: 100%;
     padding: 20px 50px 35px 50px;
