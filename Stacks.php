@@ -60,6 +60,20 @@
 
 <?php include 'ImplementStack_cpp_src.php'?>
 
+<h2>C#</h2>
+
+<h3>Node for Stack</h3>
+
+<?php include 'Node_cs_src.php'?>
+
+<h3>Structure of Stack</h3>
+
+<?php include 'Stack_cs_src.php'?>
+
+<h3>Implementation of Stack</h3>
+
+<?php include 'ImplementStack_cs_src.php'?>
+
 <h2>Python</h2>
 
 <h3>Node for Stack</h3>

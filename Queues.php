@@ -60,6 +60,20 @@
 
 <?php include 'ImplementQueue_cpp_src.php'?>
 
+<h2>C#</h2>
+
+<h3>Node for Queue</h3>
+
+<?php include 'Node_cs_src.php'?>
+
+<h3>Structure of Queue</h3>
+
+<?php include 'Queue_cs_src.php'?>
+
+<h3>Implementation of Queue</h3>
+
+<?php include 'ImplementQueue_cs_src.php'?>
+
 <h2>Python</h2>
 
 <h3>Node for Queue</h3>

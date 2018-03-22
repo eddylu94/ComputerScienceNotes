@@ -20,6 +20,12 @@
 
 <?php include 'BubbleSort_cpp_src.php'?>
 
+<h2>C#</h2>
+
+<h3>Implementation of Bubble Sort</h3>
+
+<?php include 'BubbleSort_cs_src.php'?>
+
 <h2>Python</h2>
 
 <h3>Implementation of Bubble Sort</h3>

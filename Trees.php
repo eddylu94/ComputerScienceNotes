@@ -48,6 +48,16 @@ For the depth-first search, this implementation utilizes a recursive process tha
 
 <?php include 'ImplementTree_c_src.php'?>
 
+<h2>C#</h2>
+
+<h3>Node for Tree</h3>
+
+<?php include 'TreeNode_cs_src.php'?>
+
+<h3>Implementation of Tree</h3>
+
+<?php include 'ImplementTree_cs_src.php'?>
+
 <h2>Console Output:</h2>
 
 <?php include 'Tree_output.php'?>
