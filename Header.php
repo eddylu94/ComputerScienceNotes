@@ -59,6 +59,8 @@ a {
 
 <?php include 'statRecorder.php';?>
 
+<script src="reflow.js"></script>
+
 <body bgcolor = #333333 style="font-family: Calibri; margin:0; height:100%;">
 
 <div id="page_wrapper" style="display: flex; flex-direction: column; height: 100%;">
