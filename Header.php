@@ -69,7 +69,7 @@ a {
 
     <div id="body_wrapper" style="display: flex; flex: 1;">
 
-        <div id="navMenu" style="width: 230px; background-color: #191919; text-align: left; padding: 0;">
+        <div id="navMenu" style="width: 230px; min-width: 230px; background-color: #191919; text-align: left; padding: 0;">
             <ul>
                 <li><a href="Home.php">Notes</a></li>
                 <li><a href="DataStructures.php">Data Structures</a></li>

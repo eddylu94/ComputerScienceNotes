@@ -63,6 +63,7 @@
 
 #header_wrapper {
     margin: 0px 40px 0px 40px;
+    align-items: center;
 }
 
 #header_placeholder {
