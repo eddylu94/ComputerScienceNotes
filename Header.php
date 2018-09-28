@@ -59,6 +59,11 @@ a {
 
 <?php include 'statRecorder.php';?>
 
+<script>
+    if (location.protocol != 'https:') {
+        location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+    }
+</script>
 <script src="reflow.js"></script>
 
 <body bgcolor = #333333 style="font-family: Calibri; margin:0; height:100%;">
