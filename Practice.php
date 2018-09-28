@@ -91,4 +91,13 @@
     Draw a circle of a given radius and origin
 </a>
 
+<a class="problemContainer" href="Practice13.php" style="text-decoration: none;">
+    <h3>Problem 13</h3>
+    Given a list of different coin denominations and a target amount of money,
+    <br>determine the number of possible combinations of coins that sum to the amount 
+    <br>
+    <br>More than one coin denomination can be used per combination 
+    <br>Duplicate combinations are allowed 
+</a>
+
 <?php include 'Footer.php'?>
