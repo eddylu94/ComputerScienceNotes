@@ -81,7 +81,7 @@
     } 
  
     </span><span class="s0">/** 
-     * Dynamics programming solution 
+     * Dynamic programming solution 
      * </span><span class="s5">@param </span><span class="s0">denominations List of all coin denominations 
      * </span><span class="s5">@param </span><span class="s0">target        Target amount of money 
      * </span><span class="s5">@return              </span><span class="s0">Current number of combinations 

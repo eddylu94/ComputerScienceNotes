@@ -13,14 +13,52 @@
 <div style="background-color: #191919; padding: 10px;">
 <pre>
 <span class="s1">
-Denominations:
-[1, 2, 3]
-
-Amount:
-5
+Denominations:[1, 2, 3]
+Target: 5
 
 
-Minimum number of coins:
-2
+Recursive solution:
+
+1, 5
+---1, 4
+------1, 3
+---------1, 2
+------------1, 1
+---------2, 2
+------2, 3
+---------1, 1
+------3, 3
+---2, 4
+------1, 2
+---------1, 1
+------2, 2
+---3, 4
+------1, 1
+2, 5
+---1, 3
+------1, 2
+---------1, 1
+------2, 2
+---2, 3
+------1, 1
+---3, 3
+3, 5
+---1, 2
+------1, 1
+---2, 2
+
+Minimum number of coins: 2
+
+
+Dynamic solution:
+
+0: 0
+1: 1
+2: 1
+3: 1
+4: 2
+5: 2
+
+Minimum number of coins: 2
 </span></pre>
 </div>
