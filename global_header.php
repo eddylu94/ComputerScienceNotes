@@ -8,6 +8,7 @@
             <li><a href="Algorithms.php">Algorithms</a></li>
             <li><a href="OOP.php">OOP</a></li>
             <li><a href="Practice.php">Practice Problems</a></li>
+            <li><a href="ProjectEuler.php">Project Euler</a></li>
         </li>
     </ul>
 
