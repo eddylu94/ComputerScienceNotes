@@ -31,6 +31,7 @@ var reflow = function() {
 	var navMenu = document.getElementById("navMenu");
 	var homePreviews = document.getElementsByClassName("home_previews");
 	var homePreviewIntermediate = document.getElementById("home_preview_intermediate");
+	var leftPlaceholder = document.getElementById("left_placeholder");
 
 	if (mobilecheck()) {
 		// Header
@@ -49,6 +50,9 @@ var reflow = function() {
 		}
 		if (navMenu) {
 			navMenu.style.display = "none";
+		}
+		if (leftPlaceholder) {
+			leftPlaceholder.style.display = "none";
 		}
 
 		// Home
@@ -82,6 +86,9 @@ var reflow = function() {
 		if (navMenu) {
 			navMenu.style.display = "block";
 		}
+		if (leftPlaceholder) {
+			leftPlaceholder.style.display = "block";
+		}
 
 		// Home
 		if (homePreviews) {
@@ -113,6 +120,9 @@ var reflow = function() {
 		}
 		if (navMenu) {
 			navMenu.style.display = "block";
+		}
+		if (leftPlaceholder) {
+			leftPlaceholder.style.display = "block";
 		}
 
 		// Home

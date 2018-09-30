@@ -8,29 +8,6 @@
                 </script>
             </div>
 
-            <script>
-
-                var onResize = function() {
-                    document.getElementById("navMenu").style.height = document.getElementById("container").clientHeight;
-                }
-
-                var onScroll = function() {
-                    document.getElementById("navMenu").style.marginTop = document.body.scrollTop;
-                }
-
-                $(window).resize(function() {
-                    onResize();
-                });
-
-                window.onscroll = function() {
-                    onScroll();
-                };
-
-                onResize();
-                onScroll();
-
-            </script>
-
         </div>
 
     </div>
