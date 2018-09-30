@@ -9,6 +9,7 @@
             <li><a href="OOP.php">OOP</a></li>
             <li><a href="Practice.php">Practice Problems</a></li>
             <li><a href="ProjectEuler.php">Project Euler</a></li>
+            <li><a href="LeetCode.php">LeetCode</a></li>
         </li>
     </ul>
 
