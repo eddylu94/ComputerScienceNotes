@@ -1,6 +1,33 @@
 <?php include 'Header.php'?>
 
 <style>
+    #search_header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 600px;
+        border-radius: 10px;
+        border: 0px;
+        background-color: #181818;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 32px;
+    }
+
+    #search_text_input {
+        font-size: large;
+        padding: 10px;
+        width: 100%;
+        border: 0px;
+        height: 36px;
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+
+    #search_icon {
+        height: 36px;
+    }
+    
     #problemPreviewsContainer {
         display: flex;
         flex: 1 0 auto;
@@ -40,6 +67,12 @@
 </style>
 
 <h1>LeetCode Problems</h1>
+
+<script src="searchProblems.js"></script>
+<div id="search_header">
+    <img id="search_icon" src="search_icon.png" style="search_icon" />
+    <input id="search_text_input" type="text" name="keywords" placeholder="Search for practice problems">
+</div>
 
 <div id="problemPreviewsContainer"></div>
 <script src="populateLeetCodeProblemPreviews.js"></script>

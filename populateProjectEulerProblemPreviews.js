@@ -165,7 +165,7 @@ var populate = function () {
     var innerHtml = "";
     for (var i = 0; i < problems.length; i++) {
         innerHtml +=
-            "<a class=\"problemContainer\" href=\"ProjectEuler" + problems[i].id + ".php\" style=\"text-decoration: none;\">"
+            "<a id=\"problemContainer" + problems[i].id + "\" class=\"problemContainer\" href=\"ProjectEuler" + problems[i].id + ".php\" style=\"text-decoration: none;\">"
             + "<h3>Problem " + problems[i].id + "</h3>"
             + problems[i].description
             + "<div class=\"problem_tags_container\">";
