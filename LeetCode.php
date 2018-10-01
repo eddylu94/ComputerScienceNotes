@@ -1,6 +1,12 @@
 <?php include 'Header.php'?>
 
 <style>
+    #problemPreviewsContainer {
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
+    }
+
     .problemContainer {
         padding: 22px;
         background-color: #262626;
@@ -35,33 +41,7 @@
 
 <h1>LeetCode Problems</h1>
 
-<a class="problemContainer" href="LeetCode1.php" style="text-decoration: none;">
-    <h3>Problem 1</h3>
-    Two Sum
-
-    <div class="problem_tags_container">
-        <div class="problem_tag">Arrays</div>
-        <div class="problem_tag">HashMaps</div>
-    </div>
-</a>
-
-<a class="problemContainer" href="LeetCode2.php" style="text-decoration: none;">
-    <h3>Problem 2</h3>
-    Add Two Numbers
-
-    <div class="problem_tags_container">
-        <div class="problem_tag">Linked Lists</div>
-    </div>
-</a>
-
-<a class="problemContainer" href="LeetCode3.php" style="text-decoration: none;">
-    <h3>Problem 3</h3>
-    Longest Substring Without Repeating Characters
-
-    <div class="problem_tags_container">
-        <div class="problem_tag">Strings</div>
-        <div class="problem_tag">HashMaps</div>
-    </div>
-</a>
+<div id="problemPreviewsContainer"></div>
+<script src="populateLeetCodeProblemPreviews.js"></script>
 
 <?php include 'Footer.php'?>
