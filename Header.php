@@ -86,7 +86,7 @@ a {
             </ul>
         </div>
 
-        <div id="left_placeholder" style="width: 230px; height: 100%;"></div>
+        <div id="left_placeholder" style="width: 230px; min-width: 230px; height: 100%;"></div>
 
         <div id="container" style="display: flex; flex: 1; flex-direction: column; background-color: #333333; padding: 50px; text-align: left; margin: 0 auto;
             font-family: Calibri; color: #FFFFFF; font-size: large;">
