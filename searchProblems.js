@@ -1,7 +1,5 @@
-var searchProblems = function () {    
-    var input = document.getElementById("search_text_input").value;
-    
-    if (!input) {
+var searchProblems = function (input) {    
+    if (input == undefined || input == null) {
         return;
     }
 
@@ -38,3 +36,14 @@ var displaySearchProblems = function (problemIds, numberOfProblems) {
         }
     }
 };
+
+(function () {
+    var oldVal;
+    $('#search_text_input').bind('DOMAttrModified textInput input change keypress paste focus', function () {
+        var val = this.value;
+        if (val !== oldVal) {
+            oldVal = val;
+            searchProblems(val);
+        }
+    });
+}());

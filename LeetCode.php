@@ -68,11 +68,11 @@
 
 <h1>LeetCode Problems</h1>
 
-<script src="searchProblems.js"></script>
 <div id="search_header">
     <img id="search_icon" src="search_icon.png" style="search_icon" />
     <input id="search_text_input" type="text" name="keywords" placeholder="Search for practice problems">
 </div>
+<script src="searchProblems.js"></script>
 
 <div id="problemPreviewsContainer"></div>
 <script src="populateLeetCodeProblemPreviews.js"></script>

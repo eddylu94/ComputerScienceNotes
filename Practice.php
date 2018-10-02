@@ -68,7 +68,6 @@
 
 <h1>Practice Problems</h1>
 
-<script src="searchProblems.js"></script>
 <div id="search_header">
     <img id="search_icon" src="search_icon.png" style="search_icon" />
     <input
@@ -76,11 +75,9 @@
         type="text"
         name="keywords"
         placeholder="Search for practice problems"
-        oninput="searchProblems()"
-        onkeydown="searchProblems()"
-        onkeyup="searchProblems()"
     >
 </div>
+<script src="searchProblems.js"></script>
 
 <div id="problemPreviewsContainer"></div>
 <script src="populatePracticeProblemPreviews.js"></script>
