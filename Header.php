@@ -11,7 +11,7 @@ html, body {
     
 #navMenu ul {
     list-style-type: none;
-    height: 50px;
+    height: 55px;
     color: #FFFFFF;
     font-family: Calibri;
     font-size: 20px;
@@ -24,17 +24,23 @@ html, body {
 #navMenu ul li a {          
     width: 100%;
     height: 100%;
-    display: inline-block;
+    display: flex;
     box-sizing: border-box;
     padding: 15px 10px 15px 50px;
     text-decoration: none;
     color: #FFFFFF;
+    align-items: center;
 }
     
 #navMenu ul li:hover {
     background-color: #808080;
     color: #FFFFFF;
-}    
+}
+
+.navMenu_icon {
+    height: 25px;
+    margin-right: 18px;
+}
 
 h1 {
     margin-top: 0px;
@@ -74,19 +80,19 @@ a {
 
     <div id="body_wrapper" style="display: flex; flex: 1;">
 
-        <div id="navMenu" style="position: fixed; width: 230px; min-width: 230px; height: 100%; background-color: #191919; text-align: left; padding: 0;">
+        <div id="navMenu" style="position: fixed; width: 280px; min-width: 280px; height: 100%; background-color: #191919; text-align: left; padding: 0;">
             <ul>
-                <li><a href="Home.php">Notes</a></li>
-                <li><a href="DataStructures.php">Data Structures</a></li>
-                <li><a href="Algorithms.php">Algorithms</a></li>
-                <li><a href="OOP.php">OOP</a></li>
-                <li><a href="Practice.php">Practice Problems</a></li>                
-                <li><a href="ProjectEuler.php">Project Euler</a></li>
-                <li><a href="LeetCode.php">LeetCode</a></li>
+                <li><a href="Home.php"><img class="navMenu_icon" src="./home_icon.png" />Notes</a></li>
+                <li><a href="DataStructures.php"><img class="navMenu_icon" src="./structures_icon.png" />Data Structures</a></li>
+                <li><a href="Algorithms.php"><img class="navMenu_icon" src="./algorithms_icon.png" />Algorithms</a></li>
+                <li><a href="OOP.php"><img class="navMenu_icon" src="./objects_icon.png" />OOP</a></li>
+                <li><a href="Practice.php"><img class="navMenu_icon" src="./problems_icon.png" />Practice Problems</a></li>                
+                <li><a href="ProjectEuler.php"><img class="navMenu_icon" src="./projecteuler_checkmark.png" />Project Euler</a></li>
+                <li><a href="LeetCode.php"><img class="navMenu_icon" src="./leetcode_logo.png" />LeetCode</a></li>
             </ul>
         </div>
 
-        <div id="left_placeholder" style="width: 230px; min-width: 230px; height: 100%;"></div>
+        <div id="left_placeholder" style="width: 280px; min-width: 280px; height: 100%;"></div>
 
         <div id="container" style="display: flex; flex: 1; flex-direction: column; background-color: #333333; padding: 50px; text-align: left; margin: 0 auto;
             font-family: Calibri; color: #FFFFFF; font-size: large;">
