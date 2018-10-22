@@ -54,5 +54,41 @@ I made this section while studying different programming data structures and alg
         </div>
     </div>
 </div>
+<div class="home_previews" style="margin-top: 22px;">
+    <div id="home_preview_intermediate" class="home_preview">
+        <div>
+            <a href="OOP.php"><img id="home_preview_image" src="oop_darkened.png"></a>
+        </div>
+        <div style="text-align: center;">
+            <a href="OOP.php" style="text-decoration: none;"><h3 class="home_preview_label">Object-Oriented Programming</h3></a>
+        </div>
+    </div>
+    <div class="home_preview">
+        <div>
+            <a href="Practice.php"><img id="home_preview_image" src="problems_darkened.png"></a>
+        </div>
+        <div style="text-align: center;">
+            <a href="Practice.php" style="text-decoration: none;"><h3 class="home_preview_label">Practice Problems</h3></a>
+        </div>
+    </div>
+</div>
+<div class="home_previews" style="margin-top: 22px;">
+    <div id="home_preview_intermediate" class="home_preview">
+        <div>
+            <a href="ProjectEuler.php"><img id="home_preview_image" src="projecteuler_darkened.png"></a>
+        </div>
+        <div style="text-align: center;">
+            <a href="ProjectEuler.php" style="text-decoration: none;"><h3 class="home_preview_label">Project Euler Problems</h3></a>
+        </div>
+    </div>
+    <div class="home_preview">
+        <div>
+            <a href="LeetCode.php"><img id="home_preview_image" src="leetcode_darkened.png"></a>
+        </div>
+        <div style="text-align: center;">
+            <a href="LeetCode.php" style="text-decoration: none;"><h3 class="home_preview_label">LeetCode Problems</h3></a>
+        </div>
+    </div>
+</div>
 
 <?php include 'Footer.php'?>
