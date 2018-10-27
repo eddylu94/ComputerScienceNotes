@@ -30,7 +30,7 @@ var reflow = function() {
 	var socialIcons = document.getElementById("socialIcons");
 	var navMenu = document.getElementById("navMenu");
 	var homePreviews = document.getElementsByClassName("home_previews");
-	var homePreviewIntermediate = document.getElementById("home_preview_intermediate");
+	var homePreviewIntermediate = document.getElementsByClassName("home_preview_intermediate");
 	var leftPlaceholder = document.getElementById("left_placeholder");
 
 	if (mobilecheck()) {
@@ -62,8 +62,10 @@ var reflow = function() {
 			}
 		}
 		if (homePreviewIntermediate) {
-			homePreviewIntermediate.style.marginRight = "0%";
-			homePreviewIntermediate.style.marginBottom = "20px";
+			for (var i = 0; i < homePreviewIntermediate.length; i++) {
+				homePreviewIntermediate[i].style.marginRight = "0%";
+				homePreviewIntermediate[i].style.marginBottom = "20px";
+			}
 		}
 	}
 	else if (tabletcheck()) {
@@ -97,8 +99,10 @@ var reflow = function() {
 			}
 		}
 		if (homePreviewIntermediate) {
-			homePreviewIntermediate.style.marginRight = "0%";
-			homePreviewIntermediate.style.marginBottom = "20px";
+			for (var i = 0; i < homePreviewIntermediate.length; i++) {
+				homePreviewIntermediate[i].style.marginRight = "0%";
+				homePreviewIntermediate[i].style.marginBottom = "20px";
+			}
 		}
 	}
 	else {
@@ -132,8 +136,10 @@ var reflow = function() {
 			}
 		}
 		if (homePreviewIntermediate) {
-			homePreviewIntermediate.style.marginRight = "5%";
-			homePreviewIntermediate.style.marginBottom = "0px";
+			for (var i = 0; i < homePreviewIntermediate.length; i++) {
+				homePreviewIntermediate[i].style.marginRight = "5%";
+				homePreviewIntermediate[i].style.marginBottom = "0px";
+			}
 		}
 	}
 }

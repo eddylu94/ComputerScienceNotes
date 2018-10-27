@@ -37,7 +37,7 @@ I made this section while studying different programming data structures and alg
 <br><br><br>
 
 <div class="home_previews">
-    <div id="home_preview_intermediate" class="home_preview">
+    <div class="home_preview home_preview_intermediate">
         <div>
             <a href="DataStructures.php"><img id="home_preview_image" src="datastructures_darkened.png"></a>
         </div>
@@ -55,7 +55,7 @@ I made this section while studying different programming data structures and alg
     </div>
 </div>
 <div class="home_previews" style="margin-top: 22px;">
-    <div id="home_preview_intermediate" class="home_preview">
+    <div class="home_preview home_preview_intermediate">
         <div>
             <a href="OOP.php"><img id="home_preview_image" src="oop_darkened.png"></a>
         </div>
@@ -73,7 +73,7 @@ I made this section while studying different programming data structures and alg
     </div>
 </div>
 <div class="home_previews" style="margin-top: 22px;">
-    <div id="home_preview_intermediate" class="home_preview">
+    <div class="home_preview home_preview_intermediate">
         <div>
             <a href="ProjectEuler.php"><img id="home_preview_image" src="projecteuler_darkened.png"></a>
         </div>
