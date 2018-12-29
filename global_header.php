@@ -14,13 +14,8 @@
     </ul>
 
     <ul>
-        <li>
-            <a href="../experience.php">Resume</a>
-            <ul>
-                <li><a href="../experience.php">Experience</a></li>
-                <li><a href="../education.php">Education</a></li>
-            </ul>
-        </li>
+        <li><a href="../blog.php">Blog</a></li>
+        <li><a href="Home.php">Notes</a></li>
         <li>
             <a href="../projects.php">Projects</a>
             <ul>
@@ -28,7 +23,13 @@
                 <li><a href="../schoolprojects.php">School Projects</a></li>
             </ul>
         </li>
-        <li><a href="Home.php">Notes</a></li>
+        <li>
+            <a href="../experience.php">Resume</a>
+            <ul>
+                <li><a href="../experience.php">Experience</a></li>
+                <li><a href="../education.php">Education</a></li>
+            </ul>
+        </li>
         <li><a href="../contact.php">Contact</a></li>
     </ul>
 
@@ -63,13 +64,8 @@
             <div id="menu">
                 <div id="menu_left">
                     <ul>
-                        <li>
-                            <a href="../experience.php">Resume</a>
-                            <ul>
-                                <li><a href="../experience.php">Experience</a></li>
-                                <li><a href="../education.php">Education</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="../blog.php">Blog</a></li>
+                        <li><a href="Home.php">Notes</a></li>
                         <li>
                             <a href="../projects.php">Projects</a>
                             <ul>
@@ -77,7 +73,13 @@
                                 <li><a href="../schoolprojects.php">School Projects</a></li>
                             </ul>
                         </li>
-                        <li><a href="Home.php">Notes</a></li>
+                        <li>
+                            <a href="../experience.php">Resume</a>
+                            <ul>
+                                <li><a href="../experience.php">Experience</a></li>
+                                <li><a href="../education.php">Education</a></li>
+                            </ul>
+                        </li>
                         <li><a href="../contact.php">Contact</a></li>
                     </ul>
                 </div>
