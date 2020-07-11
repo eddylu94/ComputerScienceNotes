@@ -1,4 +1,7 @@
 <link rel="stylesheet" type="text/css" href="global_header.css">
+<link rel="stylesheet" type="text/css" href="global_header-S.css">
+<link rel="stylesheet" type="text/css" href="global_header-M.css">
+<link rel="stylesheet" type="text/css" href="global_header-L.css">
 
 <div id="menu_flyout_overlay" onclick="toggleFlyout()"></div>
 <div id="menu_flyout">

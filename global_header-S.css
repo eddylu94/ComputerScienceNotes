@@ -1,0 +1,35 @@
+﻿@media only screen and (max-width: 900px) {
+	#menu {
+		display: none;
+	}
+
+	#menuIcon {
+		display: block;
+	}
+
+	#header_wrapper {
+		display: flex;
+	}
+
+	#socialIcons {
+		margin-top: 10px;
+		margin-left: 40px;
+	}
+
+	#navMenu {
+		display: none;
+	}
+
+	#left_placeholder {
+		display: none;
+	}
+
+	.home_previews {
+		flex-direction: column;
+	}
+
+	.home_preview_intermediate {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}

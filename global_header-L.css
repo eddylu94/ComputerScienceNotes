@@ -1,0 +1,35 @@
+﻿@media only screen and (min-width: 1200px) {
+	#menu {
+		display: block;
+	}
+
+	#menuIcon {
+		display: none;
+	}
+
+	#header_wrapper {
+		display: block;
+	}
+
+	#socialIcons {
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+	#navMenu {
+		display: block;
+	}
+	
+	#left_placeholder {
+		display: block;
+	}
+
+	.home_previews {
+		flex-direction: row;
+	}
+
+	.home_preview_intermediate {
+		margin-right: 5%;
+		margin-bottom: 0;
+	}
+}

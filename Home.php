@@ -3,17 +3,12 @@
 <style>
     .home_previews {
         display: flex;
-        flex-direction: row;
         justify-content: center;
     }
 
     .home_preview {
         display: flex;
         flex-direction: column;
-    }
-
-    #home_preview_intermediate {
-        margin-right: 5%;
     }
     
     #home_preview_image {
