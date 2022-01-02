@@ -6,7 +6,22 @@
     
 html, body {
     width: 100%;
-    height:  100%;
+    height: 100%;
+}
+
+body {
+	margin: 0px;
+	
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	color: #333333;
+
+	display: flex;
+	flex-direction: column;
 }
     
 #navMenu ul {
@@ -59,8 +74,6 @@ a {
 
 </style>
 
-<html>
-
 <script src="//code.jquery.com/jquery-1.12.4.js"></script>
 
 <?php include 'statRecorder.php';?>
@@ -72,9 +85,35 @@ a {
 </script>
 <script src="reflow.js"></script>
 
-<body style="background-color: #333333; font-family: Calibri; margin:0; height:100%;">
+<div id="menu_flyout_overlay" onclick="toggleFlyout()"></div>
+<div id="menu_flyout">
+    <ul>
+        <li><a href="../index.php">Blog</a></li>
+				<li>
+					<a href="Home.php">Notes</a>
+					<ul>
+							<li><a href="DataStructures.php">Data Structures</a></li>
+							<li><a href="Algorithms.php">Algorithms</a></li>
+							<li><a href="OOP.php">OOP</a></li>
+							<li><a href="Practice.php">Practice Problems</a></li>
+							<li><a href="ProjectEuler.php">Project Euler</a></li>
+							<li><a href="LeetCode.php">LeetCode</a></li>
+					</ul>
+				</li>
+        <li><a href="../about.php">About</a></li>
+    </ul>
 
-<div id="page_wrapper" style="display: flex; flex-direction: column; height: 100%;">
+    <div id="socialIcons">
+				<a href="https://github.com/eddylu94" target="_blank">
+						<img id="socialIcon" alt="GitHub" src="gh-icon_round.png" />
+				</a>                
+        <a href="https://linkedin.com/in/lueddy" target="_blank">
+            <img id="socialIcon" alt="LinkedIn" src="in-icon_round.png" />
+        </a>
+    </div>
+</div>
+
+<div id="page_wrapper" style="display: flex; flex-direction: column; height: 100%; overflow-y: auto;">
 
     <?php include 'global_header.php';?>
 
@@ -94,7 +133,7 @@ a {
 
         <div id="left_placeholder" style="width: 280px; min-width: 280px; height: 100%;"></div>
 
-        <div id="container" style="display: flex; flex: 1; flex-direction: column; background-color: #333333; padding: 50px; text-align: left; margin: 0 auto;
+        <div id="container" style="display: flex; flex: 1; flex-direction: column; background-color: #333333; text-align: left; margin: 0 auto;
             font-family: Calibri; color: #FFFFFF; font-size: large;">
 
             <div id="container_wrapper" style="display: flex; flex: 1 0 auto; flex-direction: column;">

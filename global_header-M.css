@@ -5,10 +5,20 @@
 
 	#menuIcon {
 		display: none;
+		height: 45px;
 	}
 
 	#header_wrapper {
 		display: block;
+		margin: 0 40px;
+	}
+
+	#title_left {
+		font-size: 32px;
+	}
+
+	#title_right {
+		font-size: 32px;
 	}
 
 	#socialIcons {
@@ -31,5 +41,9 @@
 	.home_preview_intermediate {
 		margin-right: 0;
 		margin-bottom: 20px;
+	}
+
+	#container {
+		padding: 50px;
 	}
 }
