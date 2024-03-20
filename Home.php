@@ -27,7 +27,7 @@
 
 <h1>Notes</h1>
 
-I made this section while studying different programming data structures and algorithms so that my friends and I can quickly refer to these source codes whenever needed.
+Notes I took during university that I shared with friends while studying.
 
 <br><br><br>
 

@@ -88,7 +88,8 @@ a {
 <div id="menu_flyout_overlay" onclick="toggleFlyout()"></div>
 <div id="menu_flyout">
     <ul>
-        <li><a href="../index.php">Blog</a></li>
+				<li><a href="../projects.php">Projects</a></li>
+        <li><a href="../blog.php">Blog</a></li>
 				<li>
 					<a href="Home.php">Notes</a>
 					<ul>
