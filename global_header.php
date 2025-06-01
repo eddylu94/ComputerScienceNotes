@@ -17,8 +17,7 @@
             <div id="menu">
                 <div id="menu_left">
                     <ul>
-												<li><a href="../projects.php">Projects</a></li>
-                        <li><a href="../blog.php">Blog</a></li>
+												<li><a href="../blog.php">Blog</a></li>
                         <li>
 													<a href="Home.php">Notes</a>
 													<ul>
@@ -28,6 +27,13 @@
 														<li><a href="Practice.php">Practice Problems</a></li>
 														<li><a href="ProjectEuler.php">Project Euler</a></li>
 														<li><a href="LeetCode.php">LeetCode</a></li>
+													</ul>
+												</li>
+												<li>
+													<a href="../projects.php">Projects</a>
+													<ul>
+														<li><a href="../projects.php">Personal Projects</a></li>
+														<li><a href="../schoolprojects.php">School Projects</a></li>
 													</ul>
 												</li>
         								<li><a href="../about.php">About</a></li>

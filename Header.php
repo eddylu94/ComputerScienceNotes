@@ -88,8 +88,7 @@ a {
 <div id="menu_flyout_overlay" onclick="toggleFlyout()"></div>
 <div id="menu_flyout">
     <ul>
-				<li><a href="../projects.php">Projects</a></li>
-        <li><a href="../blog.php">Blog</a></li>
+				<li><a href="../blog.php">Blog</a></li>
 				<li>
 					<a href="Home.php">Notes</a>
 					<ul>
@@ -101,7 +100,14 @@ a {
 							<li><a href="LeetCode.php">LeetCode</a></li>
 					</ul>
 				</li>
-        <li><a href="../about.php">About</a></li>
+        <li>
+					<a href="../projects.php">Projects</a>
+					<ul>
+						<li><a href="../projects.php">Personal Projects</a></li>
+						<li><a href="../schoolprojects.php">School Projects</a></li>
+					</ul>
+				</li>
+				<li><a href="../about.php">About</a></li>
     </ul>
 
     <div id="socialIcons">
