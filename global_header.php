@@ -43,9 +43,9 @@
                     </ul>
                 </div>
                 <div id="socialIcons">
-										<a href="https://github.com/eddylu94" target="_blank">
-												<img id="socialIcon" alt="GitHub" src="gh-icon_round.png" />
-										</a>                   
+                    <a href="https://github.com/eddylu94" target="_blank">
+                        <img id="socialIcon" alt="GitHub" src="gh-icon_round.png" />
+                    </a>                   
                     <a href="https://linkedin.com/in/lueddy" target="_blank">
                         <img id="socialIcon" alt="LinkedIn" src="in-icon_round.png" />
                     </a>

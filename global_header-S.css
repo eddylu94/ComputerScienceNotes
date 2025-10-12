@@ -1,54 +1,54 @@
 ﻿@media only screen and (max-width: 900px) {
-	#menu {
-		display: none;
-	}
+  #menu {
+    display: none;
+  }
 
-	#menuIcon {
-		display: block;
-		height: 35px;
-	}
+  #menuIcon {
+    display: block;
+    height: 35px;
+  }
 
-	#header_wrapper {
-		display: flex;
-		margin: 0 20px;
-	}
+  #header_wrapper {
+    display: flex;
+    margin: 0 20px;
+  }
 
-	#title_left {
-		font-size: 24px;
-	}
+  #title_left {
+    font-size: 24px;
+  }
 
-	#title_right {
-		font-size: 24px;
-	}
+  #title_right {
+    font-size: 24px;
+  }
 
-	#menu_flyout ul {
-		margin-left: 0;
-		padding-left: 20px;
-	}
+  #menu_flyout ul {
+    margin-left: 0;
+    padding-left: 20px;
+  }
 
-	#socialIcons {
-		margin-top: 10px;
-		margin-left: 20px;
-	}
+  #socialIcons {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
 
-	#navMenu {
-		display: none;
-	}
+  #navMenu {
+    display: none;
+  }
 
-	#left_placeholder {
-		display: none;
-	}
+  #left_placeholder {
+    display: none;
+  }
 
-	.home_previews {
-		flex-direction: column;
-	}
+  .home_previews {
+    flex-direction: column;
+  }
 
-	.home_preview_intermediate {
-		margin-right: 0;
-		margin-bottom: 20px;
-	}
+  .home_preview_intermediate {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 
-	#container {
-		padding: 20px;
-	}
+  #container {
+    padding: 20px;
+  }
 }

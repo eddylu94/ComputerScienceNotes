@@ -9,6 +9,6 @@
 
 <br>
 <p>Interfaces are structures, similar to classes, that contain non-implemented methods.
-     Interfaces are implemented as subclasses where the methods are then implemented.</p>
+Interfaces are implemented as subclasses where the methods are then implemented.</p>
 
 <?php include 'Footer.php'?>
