@@ -1,29 +1,5 @@
 <?php include 'assets/includes/Header.php'?>
-
-<style>
-  .home_previews {
-    display: flex;
-    justify-content: center;
-  }
-
-  .home_preview {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #home_preview_image {
-    width: 100%;
-    opacity: 0.8;
-  }
-
-  #home_preview_image:hover {
-    opacity: 1.0;
-  }
-
-  .home_preview_label {
-    color: #FFFFFF
-  }
-</style>
+<link rel="stylesheet" type="text/css" href="/notes/assets/css/home.css">
 
 <h1>Notes</h1>
 
