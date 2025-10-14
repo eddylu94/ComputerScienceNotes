@@ -73,6 +73,6 @@
     <div id="left_placeholder" style="width: 280px; min-width: 280px; height: 100%;"></div>
 
     <div id="container" style="display: flex; flex: 1; flex-direction: column; background-color: #333333; text-align: left; margin: 0 auto;
-        font-family: Calibri; color: #FFFFFF; font-size: large;">
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; color: #FFFFFF; font-size: large;">
 
       <div id="container_wrapper" style="display: flex; flex: 1 0 auto; flex-direction: column;">
