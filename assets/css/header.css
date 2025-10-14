@@ -62,3 +62,35 @@ p#notesTitle {
 a {
   color: #FFFFFF;
 }
+
+/* Prevent page horizontal overflow */
+body {
+  overflow-x: hidden;
+}
+
+#page_wrapper {
+  overflow-x: hidden;
+}
+
+#container {
+  overflow-x: hidden;
+}
+
+/* Code container overflow handling */
+div[style*="background-color: #2b2b2b"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+div[style*="background-color: #2b2b2b"] pre {
+  margin: 0;
+  white-space: pre;
+  overflow-x: visible;
+  overflow-y: hidden;
+  max-width: none;
+  min-width: max-content;
+  display: block;
+}
