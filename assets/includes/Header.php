@@ -38,11 +38,11 @@
   </div>
 </div>
 
-<div id="page_wrapper" style="display: flex; flex-direction: column; height: 100%; overflow-y: auto;">
+<div id="page_wrapper" style="display: flex; flex-direction: column; height: 100vh; overflow: hidden;">
 
   <?php include 'global_header.php';?>
 
-  <div id="body_wrapper" style="display: flex; flex: 1;">
+  <div id="body_wrapper" style="display: flex; flex: 1; overflow-y: auto;">
 
     <div id="navMenu" style="position: fixed; width: 280px; min-width: 280px; height: 100%; background-color: #191919; text-align: left; padding: 0;">
       <ul>
